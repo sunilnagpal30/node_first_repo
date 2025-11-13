@@ -16,6 +16,7 @@ app.get("/users", (req, res) => {
   const users = [
     { id: 1, name: "Sunil Nagpal", role: "Web Developer" },
     { id: 2, name: "Amit Sharma", role: "Backend Developer" },
+    { id: 3, name: "Sohan Sharma", role: "Frontend Developer" },
   ];
   res.json(users);
 });
